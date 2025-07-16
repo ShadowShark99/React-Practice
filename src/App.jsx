@@ -5,6 +5,7 @@ import Button from './components/Button'
 import Person from './components/Person'
 import ClassInput from './components/ClassInput'
 import FunctionalInput from './components/FunctionalInput'
+import { Link } from 'react-router-dom'
 
 
 function App() {
@@ -18,6 +19,13 @@ function App() {
       </Button>
       <Person/>
       <ClassInput name="Poop"/>
+      <nav>
+        <ul>
+          <li>
+            <Link to="profile">Profile page</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   )
 }
