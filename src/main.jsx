@@ -7,19 +7,10 @@ import Spinach from './components/Spinach';
 import Popeye from './components/Popeye';
 import DefaultProfile from './components/DefaultProfile';
 import ErrorPage from './components/ErrorPage';
+import routes from '../routes';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage/>,
-  },
-  {
-    path: "profile/:name",
-    element: <Profile />,
-  },
-]);
+const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
