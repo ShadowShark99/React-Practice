@@ -22,7 +22,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to="profile">Profile page</Link>
+            <Link to="profile/logiin">Profile page</Link>
           </li>
         </ul>
       </nav>
