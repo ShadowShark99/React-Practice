@@ -15,6 +15,10 @@ const Profile = () => {
     ["popeye", "Popeye the sailor eats lots of spinach"],
     ["spinach", "Hi, I am Spina- ahhhhhh! *gets eaten*"]
   ]);
+  // if(localStorage.getItem("profile-database"))
+  // {
+  //   setProfiles(localStorage.getItem("profile-datebase"));
+  // }
   const [username, setUsername] = useState("");
   const [description, setDescription] = useState("");
   
@@ -45,6 +49,7 @@ const Profile = () => {
     }
     //console.log(newProfiles);
     setProfiles(newProfiles);
+    //localStorage.setItem("profile-database", newProfiles);
 
   };
 

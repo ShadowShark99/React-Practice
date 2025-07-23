@@ -41,8 +41,8 @@ function Person() {
       <h1>{fullName}</h1>
       <h2>{person.age}</h2>
       <button onClick={handleIncreaseAge}>Increase age</button>
-      <CustomInput val={person.firstName} setVal={setFirstName}></CustomInput>
-      <CustomInput val={person.lastName} setVal={setLastName}></CustomInput>
+      <CustomInput val={person.firstName} setVal={setFirstName}>First Name: </CustomInput>
+      <CustomInput val={person.lastName} setVal={setLastName}>Last Name: </CustomInput>
     </>
   );
 }

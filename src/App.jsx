@@ -13,12 +13,8 @@ function App() {
 
   return (
     <>
-      <HelloWorld/>
-      <Button>
-
-      </Button>
       <Person/>
-      <ClassInput name="Poop"/>
+      <ClassInput name="Your Name"/>
       <nav>
         <ul>
           <li>
